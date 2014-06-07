@@ -1,0 +1,10 @@
+{% extends '../../../views/base.swig.html' %}
+{% block content %}
+<h2>Webcams</h2>
+<p>The cameras in the space allow you to check whether anyone is in before you set off, the cameras can be slow to load and uses a fair amount of data if continually refreshed.</p>
+{% for camera in cameras %}
+	<h3>{{ camera.name }}</h3>
+	<p><img src="/webcams/{{ loop.index }}.jpg" alt="{{ camera.name }}" /></p>
+{% endfor %}
+<p>If there are any problems with the cameras please contact the <a href="mailto:trustees@southlondonmakerspace.org">trustees</a>.</p>
+{% endblock %}

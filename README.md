@@ -4,7 +4,7 @@ A module for `slm-site`.
 # License
 
     South London Makerspace Members List
-    Copyright (C) 2014  Matt Copperwaite
+    Copyright (C) 2014 Tom Lynch
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU Affero General Public License as
